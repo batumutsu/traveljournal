@@ -1,38 +1,121 @@
-.App {
-  text-align: center;
+.nav--container {
+  position: absolute;
+  width: 100%;
+  height: 7%;
+  background: #F55A5A;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav--world {
+  position: absolute;
+  width: 24px;
+  height: 23.52px;
+  left: 45%;
+  top: 30%;
+  background: #F55A5A;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav--text {
+  position: absolute;
+  width: 20%;
+  height: 10%;
+  left: 47%;
+  top: 10%;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14.4608px;
+  line-height: 18px;
+  letter-spacing: -0.075em;
+  color: #FFFFFF;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.card--main {
+  position: absolute;
+  width: 471px;
+  height: 168px;
+  left: 39px;
+  top: 304px;
 }
 
-.App-link {
-  color: #61dafb;
+.card--loc {
+  position: absolute;
+  width: 7px;
+  height: 9.55px;
+  left: 184px;
+  top: 317px;
+  background: #F55A5A;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card--country {
+  position: absolute;
+  width: 72px;
+  height: 10px;
+  left: 195px;
+  top: 316px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10.24px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+  color: #2B283A;
+}
+
+.card--google {
+  position: absolute;
+  width: 106px;
+  height: 13px;
+  left: 279px;
+  top: 316px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10.24px;
+  line-height: 12px;
+  /* identical to box height */
+  text-decoration-line: underline;
+  color: #918E9B;
+}
+
+.card--title {
+  position: absolute;
+  width: 326px;
+  height: 33px;
+  left: 184px;
+  top: 333px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+  color: #2B283A;
+}
+
+.card--date {
+  position: absolute;
+  width: 319px;
+  height: 11px;
+  left: 184px;
+  top: 380px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10.24px;
+  line-height: 12px;
+  color: #2B283A;
+}
+
+.card--desc {
+  position: absolute;
+  width: 326px;
+  height: 60px;
+  left: 184px;
+  top: 400px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10.24px;
+  line-height: 150%;
+  /* or 15px */
+  color: #2B283A;
 }
