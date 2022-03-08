@@ -4,7 +4,7 @@ import sydney from "../images/sydney.png"
 
 export default function Card() {
     return(
-        <section className="card--container">
+        <div className="card--container">
             <img src={sydney} alt="no pic found" className="card--pic"/>
             <div className="card--main">
                 <img src={loc} alt="no pic found" className="card--loc"/>
@@ -18,6 +18,6 @@ export default function Card() {
                        buildings</p>
 
             </div>
-        </section>
+        </div>
     )
 }
